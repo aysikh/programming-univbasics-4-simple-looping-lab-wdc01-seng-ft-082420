@@ -23,10 +23,10 @@ def output_array (array)
 end
 
 
-def return_string_array (array)
+def return_string_array (array.to_s)
   count = 0 
   while count < array.length do
-    puts array.to_s[count]
+    puts array[count]
     count += 1 
   end
 end
